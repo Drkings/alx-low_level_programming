@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 /**
  * main - program that prints the size of various types
