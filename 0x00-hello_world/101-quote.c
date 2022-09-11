@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * 
+ *
  * Description - Print to standard error
  *
  * Return: 1
