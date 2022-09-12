@@ -1,16 +1,16 @@
 #include<stdio.h>
-#include<ctype>
+#include<ctype.h>
 
 /**
  * main - printing the lowercase alphabets
  *
- * Resultt: 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
 	int letter;
 
-	for (letter = 'a'; letter <= 'z'; Letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		letter = tolower(letter);
 		putchar(letter);

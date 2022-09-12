@@ -11,19 +11,20 @@ int main(void)
 {
 	int aplhabet;
 
-	for (alphabet = 'a'; letter <= 'z'; letter++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		alphabet = tolower(alphabet);
 		putchar(alphabet);
 		if (alphabet == 'z')
 		{
 			alphabet = 'A';
-			for (; alphabet <= 'Z'; letter++)
+			for (; alphabet <= 'Z'; alphabet++)
 			{
 				putchar(alphabet);
-			}break;
+			}
+			break;
 		}
 	}
-	putchar('\n')
-		return (0)
+	putchar('\n');
+	return (0);
 }
