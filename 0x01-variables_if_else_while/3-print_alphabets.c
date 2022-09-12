@@ -9,18 +9,18 @@
  */
 int main(void)
 {
-	int aplhabet;
+	int letter;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		alphabet = tolower(alphabet);
-		putchar(alphabet);
-		if (alphabet == 'z')
+		letter = tolower(letter);
+		putchar(letter);
+		if (letter == 'z')
 		{
-			alphabet = 'A';
-			for (; alphabet <= 'Z'; alphabet++)
+			letter = 'A';
+			for (; letter <= 'Z'; letter++)
 			{
-				putchar(alphabet);
+				putchar(letter);
 			}
 			break;
 		}
