@@ -16,7 +16,7 @@ int main(void)
 		if (base == '9')
 		{
 			base = 'a';
-			for (; base <= 'f';base++)
+			for (; base <= 'f'; base++)
 			{
 				putchar(base);
 			}
