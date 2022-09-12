@@ -10,7 +10,7 @@ int main(void)
 {
 	char base;
 
-	for (base = '1'; base <= '9'; base++)
+	for (base = '0'; base <= '9'; base++)
 	{
 		putchar(base);
 		if (base == '9')
