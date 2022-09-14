@@ -3,17 +3,15 @@
 /**
  * print_alphabet - program that prints alphabet
  *
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet(void)
 {
-	char alfa = 'a';
-
-	while (alfa <= 'z')
+	int i;
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		write(1, &alfa, 1);
-		alfa++;
+		_putchar(i);
 	}
-	write(1, "\n", 1);
+	_putchar('\n');
 }
