@@ -1,4 +1,4 @@
-#include<unistd.h>
+#include "main.h"
 
 /**
  * print_alphabet - program that prints alphabet
@@ -16,5 +16,4 @@ void print_alphabet(void)
 		alfa++;
 	}
 	write(1, "\n", 1);
-}
 }
