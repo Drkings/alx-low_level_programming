@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	print_alphabet_x10();
+	int _islower();
 
 	return (0);
 }
