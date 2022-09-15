@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int _islower();
+	void times_table();
 
 	return (0);
 }
