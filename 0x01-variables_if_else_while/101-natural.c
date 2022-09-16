@@ -4,7 +4,9 @@
  * main - lists all natuarl numbers bele 1024(excluded, multiples of 3 and 5
  *
  * Return: Always : 0
+ *
  */
+
 int main(void)
 {
 	int i, sum = 0;
