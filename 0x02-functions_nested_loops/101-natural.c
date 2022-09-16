@@ -17,7 +17,7 @@ int main(void)
 		{
 			sum += n;
 		}
-		else if (n % 3 == 0)
+		else if (n % 5 == 0)
 		{
 			sum += n;
 		}
