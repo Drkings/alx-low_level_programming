@@ -10,12 +10,13 @@ int main(void)
 	int i;
 
 	printf("infinite loop incoming :(\n");
+	
 	i = 0;
 
 	/*
 	 * while (i < 10)
 	 * {
-	 * Infinite loop - No increase of variable
+	 * (don't delete it)
 	 * putchar(i);
 	 * }
 	 */
